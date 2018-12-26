@@ -1,7 +1,4 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## Make Cache Matrix function
 # It sets to NULL inverse variable 
 # The set and get functions work as a mechanism to store the data in "cache"
 # setInverse stores the computed matrix while getInverse return the value
@@ -21,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
          getInverse = getInverse)
 }
 
-## Write a short comment describing this function
+## Cache Solve function
 # 1) In gets the getInverse function from x and if is not null it returns the value from cached data
 # 2) Otherwise it inverse the matrix by using the solve function and then calls setInverse to put the data in cache
 
